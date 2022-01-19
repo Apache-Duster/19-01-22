@@ -70,8 +70,12 @@ things you might want to pay more attention to:
       }
   
   /* [attribute] Selector */
+  [id] {
+      background-color: darkgoldenrod;
+  }
   
   /* [attribute=value] Selector  */
+  [type="submit"]
   
   /* [attribute~=value] Selector
       containing the value */
