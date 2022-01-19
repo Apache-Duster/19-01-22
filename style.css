@@ -58,9 +58,16 @@ things you might want to pay more attention to:
   
   /* element+element  Selector
       element immediately after element */
+      div+p {
+         background-color: blueviolet;
+         color: crimson; 
+      }
   
   /* element1~element2 Selector 
       element preceded element */
+      p ~ span {
+          background-color: cyan;
+      }
   
   /* [attribute] Selector */
   
