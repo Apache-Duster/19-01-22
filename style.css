@@ -84,6 +84,10 @@ things you might want to pay more attention to:
       containing the value */
 
       [alt~="tree"]
+      
+      [title^="here"] {
+          border: 2px red dashed;
+      }
 
 
   
@@ -95,6 +99,14 @@ things you might want to pay more attention to:
   
   /* [attribute*=value] Selector
       contains the substring */
+
+      [class*="long"] {
+          border: 2px black dashed;
+      }
+
+      [title*="long"] {
+          border: 6px black solid;
+      }
   
   /* pseudo class  */
   /* specifies a special state for that element */
