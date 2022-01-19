@@ -111,10 +111,22 @@ things you might want to pay more attention to:
   /* pseudo class  */
   /* specifies a special state for that element */
   /* :hover */
+  table:hover {
+      background-color: grey;
+  }
   
   /* :visited */
+  a,a:visited,a:link {
+      color: green;
+  }
+      
+
   
   /* :focus */
+  input[type="text"]:focus{
+      outline: green;
+      border: 5px yellow solid;
+  }
   
   /* :active */
   
