@@ -52,6 +52,9 @@ things you might want to pay more attention to:
   /* element>element	 Selector  
       element parent element 
       */
+      div>p {
+          background-color: violet;
+      }
   
   /* element+element  Selector
       element immediately after element */
