@@ -129,7 +129,14 @@ things you might want to pay more attention to:
   }
   
   /* :active */
+a:active{
+    background-color: crimson;
+}
   
   /* :checked */
   
   /* :nth-child() */
+
+tr :nth-child(odd){
+    background-color: crimson;
+}
