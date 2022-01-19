@@ -75,10 +75,17 @@ things you might want to pay more attention to:
   }
   
   /* [attribute=value] Selector  */
-  [type="submit"]
+  [type="submit"] {
+      border: none;
+      background-color: white;
+  }
   
   /* [attribute~=value] Selector
       containing the value */
+
+      [alt~="tree"]
+
+
   
   /* [attribute^=value] Selector
       begins with the value */
